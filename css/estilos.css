@@ -1,0 +1,195 @@
+*{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+:root{
+    --color-spl: #3085C3;
+    --color-spl2: #66ccff;
+    --color-spl2_d: #99ccff;
+    --color-spl3:#FAF2D3;
+    --color-spl4:#F4E869;
+}
+
+.top-var{
+    background-color: rgb(88, 88, 88);
+    font-size: 0.9rem;
+}
+
+.top-var a{
+    color: var(--color-spl3);
+}
+
+.top-var a:hover{
+    color: rgb(24, 175, 173);
+    background-color: #000000a8;
+    border-radius: 5px;
+}
+
+.second-bar{
+    background-color: var(--color-spl3);
+}
+
+.second-bar a{
+    color:var(--color-spl);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.second-bar a:hover{
+    color: #000000a8;
+    scale: 1.15;
+}
+
+.second-bar a.btn-donar{
+    color: white
+}
+
+.second-bar a.btn-donar:hover{
+    color: rgb(239, 12, 12);
+}
+
+.logo{
+    scale: 1.5;
+}
+
+.navbar-btn{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: gray;
+}
+.btn-donar{
+    background-color: var(--color-spl);
+    border: 0;
+}
+
+.btn-donar:hover{
+    background-color: var(--color-spl2);
+    border: 0;
+}
+
+/*::::Carousel::::::*/
+
+.carousel-cont .carousel-item{
+    height: calc(100vh - 110px);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+}
+
+.carousel-cont .carousel-item img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    object-fit: cover ;
+}
+
+/*Posicion de imagenes*/
+.carousel-inner .carousel-item:nth-child(1) img{
+    object-position: center center;
+}
+.carousel-inner .carousel-item:nth-child(2) img{
+    object-position: right top;
+}
+.carousel-inner .carousel-item:nth-child(3) img{
+    object-position: center center;
+}
+
+/*Control de Texto en img1*/
+.carou-capt-1{
+    bottom: 9.5rem;
+}
+.carou-capt-1 > h1{
+    color: #3085C3;
+    font-size: 5rem;
+    font-weight: 600;
+    border-radius: 15px;
+    -webkit-text-stroke: 1px #FAF2D3;
+    background-color: #FAF2D390;
+}
+.carou-capt-1 > p{
+    margin-top: 2rem;
+    font-weight: 600;
+    color: white;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #3085C3;
+}
+
+@media (max-width:991px){
+    .carou-capt-1 > h1{
+        font-size: 3rem;
+    }
+    .carou-capt-1 > p{
+        font-size: 2rem;
+    }
+}
+
+/*Nuestra-Labor*/
+.nuestra-labor{
+    background-color: var(--color-spl3);
+}
+.nuestra-labor h1,.nuestra-historia h1,.ayudanos h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--color-spl);
+    letter-spacing: 1.5px;
+}
+.ayudanos h1{
+    text-align: center;
+}
+.nuestra-labor p, .nuestra-historia p{
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+@media (max-width:991px){
+    .nuestra-labor h1, .nuestra-historia h1, .ayudanos h1{
+        text-align: center;
+        padding-top: 25px;
+        font-size: 2.5rem;
+    }
+    .nuestra-labor p, .nuestra-historia p{
+        padding-top: 10px;
+        font-size: 1rem;
+    }
+}
+
+/*Ayudanos*/
+.ayudanos{
+    background-color: var(--color-spl3);
+    margin-bottom: 16px;
+}
+.ayudanos h3{
+    color: #3085C3;
+}
+
+/*Btn-saber-mas*/
+.btn-saber-mas{
+    font-weight: 500;
+    background-color: var(--color-spl);
+    color: white;
+    margin-bottom: 16px;
+    border: 0;
+}
+.btn-saber-mas:hover{
+    background-color: var(--color-spl2_d);
+    color: green;
+}
+.btn-saber-mas:active{
+    background-color: var(--color-spl2_d) !important;
+    color: green !important;
+    scale: 1.1;
+}
+
+/*Footer*/
+
+.mapa-sitio a{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #3085C3;
+}
+.mapa-sitio a:hover{
+    margin-left: 10px;
+    transition: 500ms;
+    font-weight: 500;
+}
