@@ -8,15 +8,17 @@
     --color-spl2_d: #99ccff;
     --color-spl3:#FAF2D3;
     --color-spl4:#F4E869;
+    --color-f_oscuro: #1F1F1F;
+    --color-letras_f_oscuro: #9C9C9C;
 }
 
 .top-var{
-    background-color: rgb(88, 88, 88);
+    background-color: var(--color-f_oscuro);
     font-size: 0.9rem;
 }
 
 .top-var a{
-    color: var(--color-spl3);
+    color: var(--color-letras_f_oscuro);
 }
 
 .top-var a:hover{
@@ -183,13 +185,38 @@
 
 /*Footer*/
 
+footer{
+    background-color: var(--color-f_oscuro);
+    color: var(--color-letras_f_oscuro);
+}
+
+footer p > i {
+    position: absolute;
+    left: 20px;
+}
+
+footer p a > i {
+    color: var(--color-letras_f_oscuro);
+}
+
+footer p a > i:hover{
+    scale: 1.1;
+}
+
 .mapa-sitio a{
     padding-top: 0;
     padding-bottom: 0;
-    color: #3085C3;
+    color: var(--color-letras_f_oscuro);
 }
 .mapa-sitio a:hover{
     margin-left: 10px;
     transition: 500ms;
     font-weight: 500;
+}
+
+@media (max-width:991px){
+
+    .f-contac >p {
+        padding-left: 30px;
+    }
 }
