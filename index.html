@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="container-fluid p-0">
+    <header class="container-fluid p-0 sticky-top">
         <div class="container-fluid top-var">
             <div class="container d-flex justify-content-end align-items-center">
                 <ul class="nav flex-nowrap">
@@ -52,7 +52,7 @@
                         </a>
                     </li>
                 </ul>           
-        </div>
+            </div>
         </div>
         
         <div class="navbar navbar-expand-lg second-bar">
@@ -69,7 +69,7 @@
                 <div class="collapse navbar-collapse " id="barra">
                     <ul class="navbar-nav w-100 justify-content-end text-center">
                         <li class="nav-item">
-                            <a class="nav-link  mx-3" href="#nuestra-labor">¿Qué hacemos?</a>
+                            <a class="nav-link  mx-3" href="#ancla-labor">¿Qué hacemos?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  mx-3" href="#">Conócenos</a>
@@ -87,7 +87,7 @@
     </header>
     <main class="">
         <div class="container-fluid carousel-cont p-0">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" zata-bs-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -118,26 +118,35 @@
                 </button>
               </div>
         </div>
-        <div class="container nuestra-labor" id="nuestra-labor">
-            <div class="row mt-5">
-                <div class="col-12 col-lg-6 p-0 overflow-hidden">
-                    <img src="assets/img/ind_labor.jpg" class="object-fit-cover w-100" alt="">
-                </div>
-                <div class="col-12 col-lg-6 d-flex align-items-center">
-                    <div>
-                        <h1>Nuestra Labor</h1>
-                        <p>
-                            Splendor Casa Hogar es un albergue de adultos mayores enfermos, Frágiles y vulnerables en su mayoría en abandono. En Splendor se les brinda casa, alimentación, monitoreo de salud y farmacológico, terapia física/neurológica.
-                        </p>
-                        <a href="" class="btn btn-saber-mas">Saber mas...</a>
+
+        <div class="ancla-labor position-absolute" id="ancla-labor"></div>
+        <div class="container-fluid nuestra-labor py-5" >
+            <div class="container" >
+                <div class="row">
+                    <div class="col-12 col-lg-6 p-0 overflow-hidden">
+                        <img src="assets/img/ind_labor.jpg" class="object-fit-cover w-100" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-center">
+                        <div>
+                            <h1>Nuestra Labor</h1>
+                            <p>
+                                Splendor Casa Hogar es un albergue de adultos mayores enfermos, Frágiles y vulnerables en su mayoría en abandono. En Splendor se les brinda casa, alimentación, monitoreo de salud y farmacológico, terapia física/neurológica.
+                            </p>
+                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                <a href="" class="btn btn-saber-mas">Conocer mas</a>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+       
+       
         <div class="container nuestra-historia">
             <div class="row flex-lg-row-reverse mt-5">
                 <div class="col-12 col-lg-6 d-flex align-items-center">
-                    <video controls src="https://www.splendorcasahogar.com/videos/primero.mp4" width="100%" class=""></video>
+                    <video autoplay controls src="https://www.splendorcasahogar.com/videos/primero.mp4" width="100%" class=""></video>
                 </div>
                 <div class="col-12 col-lg-6 d-flex align-items-center">
                     <div>
@@ -147,7 +156,10 @@
                         <p>
                             Se inició como un voluntariado y compromiso social dando apoyo a ancianos de escasos recursos y salud deteriorada, con ayuda en su mismo lugar de residencia, pero al ver que no era suficiente las visitas y apoyo semanal, las integrantes decidieron fundar SPLENDOR Casa Hogar para la Tercera Edad, y desde Diciembre del 2004 alquilamos una vivienda donde venimos brindando todos los servicios que requieren para su día a día.
                         </p>
-                        <a href="" class="btn btn-saber-mas">Saber mas...</a>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a href="" class="btn btn-saber-mas">Conoce Nuestros Proyectos</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

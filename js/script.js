@@ -6,3 +6,4 @@ btnNav.addEventListener("click", ()=>{
     iopen.classList.toggle("d-none");
     iclose.classList.toggle("d-none");
 })
+
