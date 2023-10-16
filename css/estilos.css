@@ -237,3 +237,27 @@ footer p a > i:hover{
         padding-left: 30px;
     }
 }
+
+
+/*::Efectos*/
+.fade-in{
+    opacity: 0;
+    transform: translateX(0px);
+    transition: opacity 2s, transform 2s;
+}
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: opacity 1s, transform 2s;
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(150px);
+    transition: opacity 1s, transform 2s;
+}
+
+.default{
+    opacity: 1;
+    transform: translateX(0px);
+}

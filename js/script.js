@@ -13,4 +13,29 @@ function cierraVentana() {
         }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const images0 = document.querySelectorAll('.fade-in');
+    const images1 = document.querySelectorAll('.fade-in-left');
+    const images2 = document.querySelectorAll('.fade-in-right');
+
+    function ponerDefault(images) {
+        images.forEach(image => {
+          const imageTop = image.getBoundingClientRect().bottom;
+          const windowHeight = window.innerHeight;
+          if (imageTop < windowHeight) {
+            image.classList.add("default");
+          }
+          if (imageTop > windowHeight || imageTop < 250) {
+            image.classList.remove("default");
+          }
+        });
+      }
+
+      
+      window.addEventListener('scroll', ()=> {
+        ponerDefault(images0);
+        ponerDefault(images1);
+        ponerDefault(images2);
+    });
+});
 
