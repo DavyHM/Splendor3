@@ -126,8 +126,8 @@
     }
 }
 
-/*Nuestra-Labor*/
-#ancla-labor{
+/*Nuestra-Labor/Historia*/
+#ancla-labor, #ancla-historia, #ancla-ayuda{
     transform: translateY(-100px);
 }
 
@@ -150,6 +150,13 @@
 }
 
 @media (max-width:991px){
+    #ancla-labor, #ancla-historia{
+        transform: translateY(-220px);
+    }
+    #ancla-ayuda{
+        transform: translateY(-235px);
+    }
+
     .nuestra-labor h1, .nuestra-historia h1, .ayudanos h1{
         text-align: center;
         padding-top: 25px;
