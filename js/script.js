@@ -7,18 +7,10 @@ btnNav.addEventListener("click", () => {
 })
 
 
-
-
-window.addEventListener('load', cierraVentana);
-
 function cierraVentana() {
     if (window.innerWidth <= 991) {
-        var listaItems = document.querySelectorAll(".navbar-collapse li");
-        for (var i = 0; i < listaItems.length; i++) {
-            listaItems[i].addEventListener("click", () => {
-                btnNav.click();
-            });
+            btnNav.click();
         }
-    }
 }
+
 
