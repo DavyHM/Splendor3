@@ -344,5 +344,30 @@ footer p >a:hover{
     transform: translateX(0px);
 }
 
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.subtitulo{
+    color: var(--color-spl);
+    
+}
+
+.mision .c-img{
+
+    overflow: hidden;
+    height: 250px;
+    
+}
+
+.mision img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.mision:nth-child(2) img{
+    object-position: center 20%;
+}
+
 
 /*video autopla, carousel pdata*/
