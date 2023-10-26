@@ -274,51 +274,7 @@
     scale: 1.1;
 }
 
-/*Footer*/
 
-footer img{
-    max-width: 320px !important;
-}
-
-footer{
-    background-color: var(--color-f_oscuro);
-    color: var(--color-letras_f_oscuro);
-}
-
-footer p > i {
-    position: absolute;
-    left: 20px;
-}
-
-footer p> a {
-    color: var(--color-letras_f_oscuro);
-}
-
-footer p >a:hover{
-    scale: 1.1;
-    transition: 500ms;
-    color: white !important;
-    transform: translateX(10px);
-}
-
-.mapa-sitio a{
-    padding-top: 0;
-    padding-bottom: 0;
-    color: var(--color-letras_f_oscuro);
-}
-.mapa-sitio a:hover{
-    margin-left: 10px;
-    transition: 500ms;
-    font-weight: 500;
-    color: white;
-}
-
-@media (max-width:991px){
-
-    .f-contac >p {
-        padding-left: 30px;
-    }
-}
 
 
 /*::Efectos*/
