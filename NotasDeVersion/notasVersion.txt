@@ -1,0 +1,41 @@
+***** Notas de versión *****
+
+===== 26/10/23 14:50pm =====
+Cambios realizados por Antonio Chinchay
+   
+* Los estilos creados y/o modificados
+  se muestran en una sola línea para 
+  facilitar su búsqueda.
+       
+* Cambio del segundo "subtítulo" de 
+  "Mapa del Sitio" a "Nosotros"
+
+* Falta corregir la dirección del mapa.
+
+* El color por defecto de la letra es
+  rgb(156, 156, 156).
+
+* Probar el color rgb(48, 133, 195) en 
+  el .sgv del logo del footer
+
+* Falta corregir el tema de transiciones 
+  del apartado de Redes Sociales.
+
+* El apartado de "Redes Sociales" pasa a 
+  estar de una etiqueta "<p>" a "<ul>".
+
+* El apartado de "Redes Sociales" se 
+  muestra de forma "descendente" según
+  el orden de prioridad indicado por 
+  Jessica (Ig-TkTk-Fb-YT).
+
+* Las transiones de "Nosotros" cambian
+  el color de letra a rgb(48, 133, 195).
+
+* Cambio en los estilos de los "subtítulos"
+  del footer
+
+* Falta corregir la forma en la que se 
+  muestran los datos en el apartado
+  "Contáctanos"
+============================ 
