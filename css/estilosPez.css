@@ -5,14 +5,12 @@ footer{color: rgb(156, 156, 156);}
 
 /*Footer - Estilos para los subtítulos*/
 .infoGeneral a{padding-top: 0; padding-bottom: 0; color: rgb(156, 156, 156);}
-.infoGeneral a:hover{ margin-left: 10px; transition: 500ms; font-weight: 500; color: rgb(48, 133, 195);}
+.infoGeneral a:hover{ transform: translateX(10px); transition: 500ms; font-weight: 500; color: rgb(48, 133, 195);}
 
 /*Footer - Estilos para Redes Sociales*/
-.lstRedesSociales {list-style-type: none;}
-.lstRedesSociales a:hover {color: rgb(48, 133, 195);}
-.lstRedesSociales li {padding-bottom: 4px; padding-left: 10px; list-style: none !important;}
-.lstRedesSociales li:hover {padding-left: 8px; transform: scale(1.1);}
-.lstRedesSociales p i {position: absolute; top: 4px; left: -20px;}
+.lstRedesSociales {list-style-type: none; padding-left: 0px;}
+.lstRedesSociales a:hover {transform: translateX(10px); transition: 500ms; font-weight: 500; color: rgb(48, 133, 195);}
+.lstRedesSociales li {padding-bottom: 4px; list-style: none !important; flex: 1;}
 
 /* Footer - Color para títulos*/
 .titulosFooter h6 {color: rgb(48, 133, 195)}
