@@ -1,5 +1,37 @@
 ***** Notas de versión *****
 
+===== 28/10/23 12:05pm =====
+Cambios realizados por Antonio Chinchay
+
+* Inserción del apartado para contadores
+  de Redes Sociales
+
+* Implementación del archivo "app.js" que
+  contendrá los scripts para los contadores
+  de Redes Sociales
+
+* Creación del archivo "estilosPrueba.css"
+  que contiene los estilos "iniciales"
+  para el apartado de contadores de 
+  Redes Sociales
+
+* Implementación del script para obtener
+  los "suscriptores" actuales de la 
+  cuenta de Youtube
+
+* Falta implementar los scripts para las
+  otras tres Redes Sociales (Instagram, 
+  TikTok y Facebook).
+
+* Se incluyeron las referencias a la hoja
+  de estilos y a la hoja de scripts en 
+  el index.html.
+============================
+
+
+
+
+
 ===== 26/10/23 14:50pm =====
 Cambios realizados por Antonio Chinchay
    
