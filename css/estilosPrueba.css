@@ -1,0 +1,52 @@
+.bodyPrueba {
+    padding: 0;
+    margin: 0;
+    height: 60vh; /*Aquí era 100*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e5ec;
+}
+
+.contenedor {
+    height: 200px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemPrueba {
+    height: 160px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.item span:nth-child(1){
+    font-size: 2.8em;
+    padding-bottom: 10px;
+}
+
+.iconoFacebook {
+    color: #3b5998;
+}
+
+.iconoYoutube {
+    color: #bb0000;
+}
+
+.iconoInstagram {
+    color: #3b5998;
+}
+
+.cantidad {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
