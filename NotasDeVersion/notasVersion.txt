@@ -1,5 +1,33 @@
 ***** Notas de versión *****
 
+===== 29/10/23 01:08am =====
+Cambios realizados por Antonio Chinchay
+
+* Modificación de la paleta de colores,
+  específicamente el color crema (que 
+  pasó a blanco). 
+  
+* Modificación de colores del nav y del 
+  modal "UnaCasaParaEllos".
+
+* Se agregaron algunos estilos en 
+  estilosPrueba.css
+
+* Falta corregir los colores de los 
+  archivos ".svg" del carrusel.
+
+* Se agregó barras horizontales como 
+  separación entre los componentes div
+  que separan cada sección.
+
+* Falta la parte responsive de los 
+  contadores de Redes Sociales.
+============================
+
+
+
+
+
 ===== 28/10/23 12:05pm =====
 Cambios realizados por Antonio Chinchay
 
