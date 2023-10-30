@@ -9,12 +9,27 @@
     background-color: #e0e5ec;
 }
 
+.cantidad {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
 .contenedor {
     height: 200px;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.iconoFacebook {color: #3b5998; font-size: 35px;}
+.iconoInstagram {color: #3b5998; font-size: 35px;}
+.iconoTikTok {font-size: 35px;}
+.iconoYoutube {color: #bb0000; font-size: 35px;}
+
+.item span:nth-child(1){
+    font-size: 2.8em;
+    padding-bottom: 10px;
 }
 
 .itemPrueba {
@@ -27,26 +42,4 @@
     box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
     -8px -8px 16px rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-}
-
-.item span:nth-child(1){
-    font-size: 2.8em;
-    padding-bottom: 10px;
-}
-
-.iconoFacebook {
-    color: #3b5998;
-}
-
-.iconoYoutube {
-    color: #bb0000;
-}
-
-.iconoInstagram {
-    color: #3b5998;
-}
-
-.cantidad {
-    font-size: 2em;
-    padding-bottom: 10px;
 }

@@ -9,9 +9,9 @@
     --color-spl-opd0: #3086c3d0;
     --color-spl-celeste-2: #66ccff;
     --color-spl-celeste-3: #99ccff;
-    --color-spl-crema:#FAF2D3;
-    --color-spl-crema-op90:#FAF2D390;
-    --color-amarillo:#F4E869;
+    --color-spl-crema: white;/* #FAF2D3; */
+    --color-spl-crema-op90: white;/*#FAF2D390; */
+    --color-amarillo: white;/* #F4E869; */
     --color-f_oscuro: #1F1F1F;
     --color-letras_f_oscuro: #9C9C9C;
 }
