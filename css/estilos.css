@@ -15,6 +15,7 @@
     --color-f_oscuro: #1F1F1F;
     --color-letras_f_oscuro: #9C9C9C;
 }
+
 /*De uso general*/
 .bg-spl-c{
     background-color: var(--color-spl-crema);
@@ -201,30 +202,26 @@
     }
 }
 
-
-
-/*Nuestra-Labor/Historia*/
-#ancla-labor, #ancla-historia, #ancla-ayuda{
-    transform: translateY(-100px);
-}
-
-.nuestra-labor{
-    background-color: var(--color-spl-crema);
-    
-}
-.nuestra-labor h1,.nuestra-historia h1,.ayudanos h1{
+/*Titulos y parrafos*/
+.title_1{
     font-size: 3.5rem;
     font-weight: 600;
     color: var(--color-spl);
     letter-spacing: 1.5px;
 }
-
-.ayudanos h1{
-    text-align: center;
-}
-.nuestra-labor p, .nuestra-historia p{
+.parrafo{
     font-size: 1.5rem;
     justify-content: center;
+}
+
+/*Nuestra-Labor/Historia*/
+#ancla-labor, #ancla-historia, #ancla-ayuda{
+    transform: translateY(-50px);
+}
+
+.nuestra-labor{
+    background-color: var(--color-spl-crema);
+    
 }
 
 @media (max-width:991px){
@@ -235,12 +232,12 @@
         transform: translateY(-235px);
     }
 
-    .nuestra-labor h1, .nuestra-historia h1, .ayudanos h1{
+    .title_1{
         text-align: center;
         padding-top: 25px;
         font-size: 2.5rem;
     }
-    .nuestra-labor p, .nuestra-historia p{
+    .parrafo{
         padding-top: 10px;
         font-size: 1rem;
     }
@@ -256,9 +253,9 @@
     margin-bottom: 16px;
     height: 100vh;
 }
+
 .ayudanos h3{
     color: var(--color-spl);
-    
 }
 
 /*Btn-saber-mas*/
@@ -327,5 +324,3 @@
     object-position: center 20%;
 }
 
-
-/*video autopla, carousel pdata*/
