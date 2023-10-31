@@ -17,6 +17,20 @@
 }
 
 /*De uso general*/
+.vh-80{
+    min-height: 80vh ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:991px){
+    .vh-80{
+        min-height: auto;
+    }
+}
+
+
 .bg-spl-c{
     background-color: var(--color-spl-crema);
 }
@@ -251,7 +265,7 @@
 .ayudanos{
     background-color: var(--color-spl-crema);
     margin-bottom: 16px;
-    height: 100vh;
+    height: 80vh;
 }
 
 .ayudanos h3{
@@ -303,14 +317,13 @@
     transform: translateX(0px);
 }
 
-/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::MISION VISION:::::::::::::::::::::::::::::::::::::::::::::*/
 
 
 .mision .c-img{
 
     overflow: hidden;
-    height: 250px;
-    
+    max-height: 30vh;
 }
 
 .mision img{
@@ -324,3 +337,12 @@
     object-position: center 20%;
 }
 
+@media (max-width:991px){
+
+    .mi_vi_conntainer{
+        height: auto !important;
+    }
+    
+
+
+}
