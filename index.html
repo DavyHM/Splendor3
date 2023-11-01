@@ -18,7 +18,8 @@
 </head>
 
 <body>
-    <header class="container-fluid p-0 sticky-top" id="inicio">
+    <!-- Barras de Navegacion -->
+    <header class="container-fluid p-0 sticky-top shadow" id="inicio">
         <div class="container-fluid top-var">
             <div class="container d-flex justify-content-end align-items-center">
                 <ul class="nav flex-nowrap">
@@ -57,10 +58,10 @@
             </div>
         </div>
         
-        <div class="navbar navbar-expand-lg second-bar">
+        <div class="navbar navbar-expand-lg second-bar bg_2">
             <div class="container flex-wrap justify-content-center">
                 <a href="/" class="navbar-brand ms-3 ms-lg-0">
-                    <img src="assets/img/logo_sf_ex.png" alt="Splendor-logo" width="50px" class="logo">
+                    <img src="assets/_logo/logo_sf_ex.png" alt="Splendor-logo" width="50px" class="logo">
                 </a>
                 <div class="ms-auto">
                     <button class="navbar-btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#barra" id="btn-nav">
@@ -87,6 +88,7 @@
             </div>
         </div>
     </header>
+
     <div class="modal modal-lg fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content bg-spl-c ">
@@ -95,7 +97,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img src="assets/img/anuncio.jpg" alt="" class="w-100">
+                <img src="assets/_modal/anuncio.jpg" alt="" class="w-100">
             </div>
             <div class="modal-footer justify-content-center">
                 <button type="button" class="btn btn-saber-mas">Ayúdanos</button>
@@ -103,7 +105,10 @@
             </div>
         </div>
     </div>
+
     <main class="">
+
+        <!-- Carousel -->
         <div class="container-fluid carousel-cont p-0">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -113,25 +118,25 @@
                   </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active " data-bs-interval="3000">
-                    <img src="assets/img/img_carousel_4.jpg" class="d-block" alt="foto-casa-hogar-1">
+                    <img src="assets/_carousel/img_carousel_1.jpg" class="d-block" alt="foto-casa-hogar-1">
                     <div class="carousel-caption carou-capt-1 d-block">
                         <h1 >CASA HOGAR SPLENDOR</h1>
                         <p>Para la tercera edad</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="3000">
-                    <img src="assets/img/img_carousel_5.jpg" class="d-block" alt="foto-casa-hogar-2">
+                    <img src="assets/_carousel/img_carousel_2.jpg" class="d-block" alt="foto-casa-hogar-2">
                     <div class="carou-capt-2-1 ">
-                        <img src="assets/img/logo_border.svg" alt="">
+                        <img src="assets/_carousel/logo_border.svg" alt="">
                     </div>
                     <div class="carou-capt-2-2">
                         <h1>AYUDANOS A AYUDAR, TU PUEDES HACERLO</h1>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="3000">
-                    <img src="assets/img/img_carousel_1.jpg" class="d-block" alt="foto-casa-hogar-3">
+                    <img src="assets/_carousel/img_carousel_3.jpg" class="d-block" alt="foto-casa-hogar-3">
                     <div class="carou-capt-3-1 ">
-                        <img src="assets/img/logo_border.svg" alt="">
+                        <img src="assets/_carousel/logo_border.svg" alt="">
                     </div>
                     <div class="carou-capt-3-2">
                         <h1>UNIDOS<BR>PARA QUE<BR>NO SE<BR>QUEDEN<BR>SIN HOGAR</h1>
@@ -150,19 +155,19 @@
               </div>
         </div>
 
-        <hr class="sidebar-divider">
+        <!-- <hr class="sidebar-divider"> -->
 
         <div class="position-absolute" id="ancla-labor"></div>
-        <div class="container-fluid nuestra-labor bg_left_degre vh-100 d-flex flex-column justify-content-center" >
+        <div class="container-fluid  vh-80 bg_1 " >
             <div class="container" >
                 <div class="row">
                     <div class="col-12 col-lg-6 p-0 overflow-hidden">
-                        <img src="assets/img/img_carousel_1.jpg" class="object-fit-cover w-100 fade-in-left rounded-2" alt="">
+                        <img src="assets/_main_index/labor.jpg" class="img-lab object-fit-cover w-100 fade-in-left rounded-2" alt="">
                     </div>
                     <div class="col-12 col-lg-6 d-flex align-items-center">
-                        <div>
-                            <h1 class="title_1">Nuestra Labor</h1>
-                            <p class="parrafo">
+                        <div class="ps-lg-5">
+                            <h1 class="title_1 text_color_1">Nuestra Labor</h1>
+                            <p class="parrafo text_color_1">
                                 Splendor Casa Hogar es un albergue de adultos mayores enfermos, Frágiles y vulnerables en su mayoría en abandono. En Splendor se les brinda casa, alimentación, monitoreo de salud y farmacológico, terapia física/neurológica.
                             </p>
                             <div class="d-flex justify-content-center justify-content-lg-start">
@@ -175,21 +180,21 @@
             </div>
         </div>
        
-        <hr class="sidebar-divider">
+        <!-- <hr class="sidebar-divider"> -->
 
         <div class="position-absolute" id="ancla-historia"></div>
-        <div class="container-fluid bg_right_degre">
-            <div class="container nuestra-historia  vh-100 d-flex flex-column justify-content-center">
+        <div class="container-fluid bg_1 vh-80">
+            <div class="container nuestra-historia  ">
                 <div class="row flex-lg-row-reverse">
                     <div class="col-12 col-lg-6 d-flex align-items-center overflow-hidden">
-                        <video autoplay controls src="https://www.splendorcasahogar.com/videos/primero.mp4" width="100%" class="fade-in-right"></video>
+                        <video autoplay controls src="assets/_main_index/historia.mp4" width="100%" class="fade-in-right"></video>
                     </div>
                     <div class="col-12 col-lg-6 d-flex align-items-center">
-                        <div>
-                            <h1 class="title_1">
+                        <div class="pe-lg-5">
+                            <h1 class="title_1 text_color_1">
                                 Nuestra Historia
                             </h1>
-                            <p class="parrafo">
+                            <p class="parrafo text_color_1">
                                 Se inició como un voluntariado y compromiso social dando apoyo a ancianos de escasos recursos y salud deteriorada, con ayuda en su mismo lugar de residencia, pero al ver que no era suficiente las visitas y apoyo semanal, las integrantes decidieron fundar SPLENDOR Casa Hogar para la Tercera Edad, y desde Diciembre del 2004 alquilamos una vivienda donde venimos brindando todos los servicios que requieren para su día a día.
                             </p>
                             <div class="d-flex justify-content-center justify-content-lg-start">
@@ -202,32 +207,33 @@
         </div>
         
 
-        <hr class="sidebar-divider">
+        <!-- <hr class="sidebar-divider"> -->
 
+        <!-- Ayudanos -->
         <div class="position-absolute" id="ancla-ayuda"></div>
-        <div class="container-fluid ayudanos bg-opacity-25  mb-0 d-flex flex-column justify-content-center">
+        <div class="container-fluid ayudanos bg_1  mb-0 vh-80">
             <div class="container">
                 <div class="row">
-                    <h1 class="mb-5 title_1 text-center">Así nos puedes ayudar</h1>
+                    <h1 class="mb-5 title_1 text-center text_color_1">Así nos puedes ayudar</h1>
                     <div class="col-12 col-lg-4 d-flex flex-column text-center align-items-center overflow-hidden">
-                        <h3>Apadrina un Abuelito</h3>
-                        <img src="assets/img/ayuda_adopta.png" alt="imagen" class="fade-in-left" height="200px">
+                        <h3 class="title_3 text_color_1">Apadrina un Abuelito</h3>
+                        <img src="assets/_main_index/ayuda_adopta.png" alt="imagen" class="fade-in-left" height="200px">
                         <div class="mt-3">
-                            <a class="btn btn-saber-mas">Mas información</a>
+                            <a class="btn btn-saber-mas" href="ayudanos.html">Mas información</a>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 d-flex flex-column text-center align-items-center overflow-hidden">
-                        <h3>Voluntariado Splendor</h3>
-                        <img src="assets/img/ayuda_volunt.png" alt="imagen" class="fade-in" height="200px">
+                        <h3 class="title_3 text_color_1">Voluntariado Splendor</h3>
+                        <img src="assets/_main_index/ayuda_volunt.png" alt="imagen" class="fade-in" height="200px">
                         <div class="mt-3">
-                            <a class="btn btn-saber-mas">Mas información</a>
+                            <a class="btn btn-saber-mas" href="ayudanos.html">Mas información</a>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 d-flex flex-column text-center align-items-center overflow-hidden">
-                        <h3>Donaciones Hogar</h3>
-                        <img src="assets/img/ayuda_donacion.png" alt="imagen" class="fade-in-right" height="200px">
+                        <h3 class="title_3 text_color_1">Donaciones Hogar</h3>
+                        <img src="assets/_main_index/ayuda_donacion.png" alt="imagen" class="fade-in-right" height="200px">
                         <div class="mt-3">
-                            <a class="btn btn-saber-mas">Mas información</a>
+                            <a class="btn btn-saber-mas" href="ayudanos.html">Mas información</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +281,7 @@
             <div class="row titulosFooter">
                 <div class="col-12 col-lg-3  px-5 pt-5">
                     <div class="d-flex justify-content-center">
-                        <img src="assets/img/logo_9C9C9C.svg" style="color: red" alt="a" class="img-fluid w-100">
+                        <img src="assets/_footer/logo_9C9C9C.svg" alt="Splendor_Logo" class="img-fluid w-100">
                     </div>
                     <h6 class="mt-5 text-center">Redes Sociales</h6>                  
                     <div class="item d-flex justify-content-center">

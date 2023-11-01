@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if (imageTop < windowHeight) {
             image.classList.add("default");
           }
-          if (imageTop > windowHeight || imageTop < 250) {
+          if (imageTop > windowHeight || imageTop < 200) {
             image.classList.remove("default");
           }
         });
