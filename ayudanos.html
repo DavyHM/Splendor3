@@ -24,10 +24,10 @@
             <div class="container d-flex justify-content-end align-items-center">
                 <ul class="nav flex-nowrap">
                     <li class="nav-item" >
-                        <a class="nav-link" href="">Fotos</a>
+                        <a class="nav-link" href="galeriafotos.html">Fotos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Videos</a>
+                        <a class="nav-link" href="galeriavideos.html">Videos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -60,7 +60,7 @@
         
         <div class="navbar navbar-expand-lg second-bar bg_2">
             <div class="container flex-wrap justify-content-center">
-                <a href="/" class="navbar-brand ms-3 ms-lg-0">
+                <a href="#" class="navbar-brand ms-3 ms-lg-0">
                     <img src="assets/logo/logo_sf_ex.png" alt="Splendor-logo" width="50px" class="logo">
                 </a>
                 <div class="ms-auto">
@@ -71,19 +71,22 @@
                 </div>
                 <div class="collapse navbar-collapse " id="barra">
                     <ul class="navbar-nav w-100 justify-content-end text-center">
-                        <li class="nav-item" onclick="cierraVentana()">
-                            <a class="nav-link  mx-3" href="index.html#labor">¿Qué hacemos?</a>
+                        <li class="nav-item" onclick="cierraVentana()"> 
+                            <a class="nav-link  mx-3" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item " onclick="cierraVentana()">
+                            <a class="nav-link  mx-3" href="misionvision.html">¿Quienes Somos?</a>
                         </li>
                         <li class="nav-item" onclick="cierraVentana()"> 
-                            <a class="nav-link  mx-3" href="index.html#historia">Conócenos</a>
+                            <a class="nav-link  mx-3" href="proyectos.html">Proyectos</a>
                         </li>
                         <li class="nav-item" onclick="cierraVentana()">
-                            <a class="nav-link mx-3" href="index.html#ayuda">Ayúdanos</a>
+                            <a class="nav-link mx-3" href="ayudanos.html">Ayúdanos</a>
                         </li>
                     </ul>
                 </div>
                 <div class="donar ms-3">
-                    <a href="#" class="btn btn-donar">Donar <i class="fa-solid fa-hand-holding-heart"></i></a>
+                    <a href="ayudanos.html#donar" class="btn btn-donar">Donar <i class="fa-solid fa-hand-holding-heart"></i></a>
                 </div>
             </div>
         </div>
@@ -113,7 +116,8 @@
                 </div>
             </div>
 
-            <div class="container vh-80" id="voluntariado">
+            <div class="position-absolute" id="voluntariado"></div>
+            <div class="container vh-80">
                 <h1 class="title_1 shadow text-center">Voluntariado Casa Hogar</h1>
                 <p class="parrafo">A fin de poder llegar y auxiliar a los miles de ancianos con casos extremadamente sociales, que diariamente acuden a Splendor, un grupo de amigas y cooperantes han decidido formar El equipo de VOLUNTARIOS SPLENDOR, para efectuar diferentes actividades que nos ayude a poder cubrir algunas de las múltiples necesidades de los ancianos que piden albergue en la casa hogar.</p>
                 <div class="d-flex justify-content-center">
@@ -127,7 +131,8 @@
                 </div>
             </div>
 
-            <div class="container vh-80" id="donaciones">
+            <div class="position-absolute" id="donaciones"></div>
+            <div class="container vh-80">
                 <h1 class="title_1 shadow text-center">Donaciones a la Casa Hogar</h1>              
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-lg-6 center_v">
@@ -144,8 +149,8 @@
                 </div>
             </div>
 
-
-            <div class="container vh-80" id="cuentas">
+            <div class="position-absolute" id="donar"></div>
+            <div class="container vh-80">
                 <h3 class="title_1 text-center shadow">Cuentas para realizar donativos</h3>
                 <div class="row">
                     <div class="col-12 col-lg-6">
@@ -242,21 +247,14 @@
                     <h6>Nosotros</h6>
                     <ul class="nav flex-column mt-4">
                         <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="index.html#labor" class="nav-link">¿Qué hacemos?</a>
-                            <ul class="nav flex-column ms-4">
-                                <li class="nav-item"><a href="" class="nav-link">Mision y Visión</a></li>
-                            </ul>
+                        <li class="nav-item"><a href="misionvision.html" class="nav-link">¿Quiénes somos?</a></li>
+                        <li class="nav-item"><a href="proyectos.html" class="nav-link">Proyectos</a>
                         </li>
-                        <li class="nav-item"><a href="index.html#historia" class="nav-link">Conócenos</a>
-                            <ul class="nav ms-4">
-                                <li class="nav-item"><a href="" class="nav-link">Proyectos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="index.html#ayuda" class="nav-link">Ayudanos</a>
+                        <li class="nav-item"><a href="ayudanos.html" class="nav-link">Ayudanos</a>
                             <ul class="nav flex-column ms-4">
-                                <li class="nav-item"><a href="" class="nav-link">Programa Adopta</a></li>
-                                <li class="nav-item"><a href="" class="nav-link">Voluntario Splendor</a></li>
-                                <li class="nav-item"><a href="" class="nav-link">Donaciones</a></li>
+                                <li class="nav-item"><a href="ayudanos.html#apadrina" class="nav-link">Programa Apadrina</a></li>
+                                <li class="nav-item"><a href="ayudanos.html#voluntariado" class="nav-link">Voluntario Splendor</a></li>
+                                <li class="nav-item"><a href="ayudanos.html#donaciones" class="nav-link">Donaciones</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="" class="nav-link">Fotos</a></li>

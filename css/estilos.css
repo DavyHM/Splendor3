@@ -103,9 +103,7 @@
 }
 
 .top-var a:hover{
-    color: rgb(24, 175, 173);
-    background-color: #000000a8;
-    border-radius: 5px;
+    color: white;
 }
 
 .second-bar{
@@ -268,23 +266,16 @@
     }
 }
 
-
+#apadrina, #voluntariado, #donaciones, #donar{
+    transform: translateY(-100px);
+}
 
 /**/
 
 /*Nuestra-Labor/Historia*/
-#labor, #historia, #ayuda{
-    transform: translateY(-80px);
-}
-
 
 @media (max-width:991px){
-    #labor, #historia{
-        transform: translateY(-220px);
-    }
-    #ayuda{
-        transform: translateY(-235px);
-    }
+
 
     .title_1{
         text-align: center;
