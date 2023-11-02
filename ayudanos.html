@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- Barras de Navegacion -->
     <header class="container-fluid p-0 sticky-top shadow" id="inicio">
         <div class="container-fluid top-var">
             <div class="container d-flex justify-content-end align-items-center">
@@ -60,7 +61,7 @@
         <div class="navbar navbar-expand-lg second-bar bg_2">
             <div class="container flex-wrap justify-content-center">
                 <a href="/" class="navbar-brand ms-3 ms-lg-0">
-                    <img src="assets/img/logo_sf_ex.png" alt="Splendor-logo" width="50px" class="logo">
+                    <img src="assets/logo/logo_sf_ex.png" alt="Splendor-logo" width="50px" class="logo">
                 </a>
                 <div class="ms-auto">
                     <button class="navbar-btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#barra" id="btn-nav">
@@ -71,13 +72,13 @@
                 <div class="collapse navbar-collapse " id="barra">
                     <ul class="navbar-nav w-100 justify-content-end text-center">
                         <li class="nav-item" onclick="cierraVentana()">
-                            <a class="nav-link  mx-3" href="index.html#ancla-labor">¿Qué hacemos?</a>
+                            <a class="nav-link  mx-3" href="index.html#labor">¿Qué hacemos?</a>
                         </li>
                         <li class="nav-item" onclick="cierraVentana()"> 
-                            <a class="nav-link  mx-3" href="index.html#ancla-historia">Conócenos</a>
+                            <a class="nav-link  mx-3" href="index.html#historia">Conócenos</a>
                         </li>
                         <li class="nav-item" onclick="cierraVentana()">
-                            <a class="nav-link mx-3" href="index.html#ancla-ayuda">Ayúdanos</a>
+                            <a class="nav-link mx-3" href="index.html#ayuda">Ayúdanos</a>
                         </li>
                     </ul>
                 </div>
@@ -93,70 +94,102 @@
     <main>
 
         <div class="container-fluid">
-            <div class="container mt-5">
+
+            <div class="position-absolute" id="apadrina"></div>
+            <div class="container vh-80">
                 <h1 class="title_1 text-center shadow">Apadrina a un Abuelito</h1>
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <p class="parrafo">Al adoptar un abuelito (a) ayudaras a cubrir parte de su estadia y necesidades especiales, asi como, si te permite tu tiempo visitarlo con calor y cariño lo importante es hacer feliz y que no le falte lo mínimo necesario a una persona que en cualquier momento puede partir al encuentro del Señor.</p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-6 center_v">
+                        <p class="parrafo text_color_1">Al adoptar un abuelito (a) ayudaras a cubrir parte de su estadia y necesidades especiales, asi como, si te permite tu tiempo visitarlo con calor y cariño lo importante es hacer feliz y que no le falte lo mínimo necesario a una persona que en cualquier momento puede partir al encuentro del Señor.</p>
                     </div>
                     <div class="col-12 col-lg-6">
-                        img
+                        <div class="overflow-hidden">
+                            <img src="assets/main_ayudanos/apadrina.jpg" alt="imagen_apadrina" class="w-100 fade-in-right rounded-2">
+                        </div>
                     </div>
                 </div>
-                <div class="text-center">
-                    <button class="btn btn-saber-mas">Contáctanos para mayor información</button>
+                <div class="text-center py-3">
+                    <a href="#contacto" class="btn btn-saber-mas">Contáctanos para mayor información</a>
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container vh-80" id="voluntariado">
                 <h1 class="title_1 shadow text-center">Voluntariado Casa Hogar</h1>
                 <p class="parrafo">A fin de poder llegar y auxiliar a los miles de ancianos con casos extremadamente sociales, que diariamente acuden a Splendor, un grupo de amigas y cooperantes han decidido formar El equipo de VOLUNTARIOS SPLENDOR, para efectuar diferentes actividades que nos ayude a poder cubrir algunas de las múltiples necesidades de los ancianos que piden albergue en la casa hogar.</p>
-                <div>
-                    <video src=""></video>
+                <div class="d-flex justify-content-center">
+                    <div class="w_50_to_100 ">
+                        <iframe style="min-height: 400px;" width="100%" src="//www.youtube.com/embed/C-Llb04oEic?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
                 </div>
                 <p class="parrafo">La práctica voluntaria es una escuela de vida, y está tarea reportará crecimiento. Por lo expuesto hacemos un llamado a todas las personas generosas y con desprendimiento para integrarse y participar en este equipo de DAMAS Y CABALLEROS VOLUNTARIOS.</p>
                 <div class="text-center">
-                    <button class="btn btn-saber-mas">Contáctanos para mayor información</button>
+                    <a href="#contacto" class="btn btn-saber-mas">Contáctanos para mayor información</a>
                 </div>
             </div>
 
-            <div class="container">
-                <h1 class="title_1 shadow text-center">Donaciones a la Casa Hogar</h1>
-                <p class="parrafo">SPLENDOR Casa Hogar para la Tercera Edad necesita de tu ayuda, necesitamos tensiómetro, medicinas y nebulizador nutrientes (leche ensure, vital o geriaplus) y tiras reactivas para medir la glucosa, etc. Nuestros requerimientos son de tipo Mobiliario Medico, Alimentos-Viveres y Medicamentos</p>
-                <p class="parrafo">Nuestros residentes son acogidos con respeto, amor y mucho cariño integrándolos al calor de su nueva familia.</p>
-                <div>
-                    <img src="" alt="imagen_donaciones">
+            <div class="container vh-80" id="donaciones">
+                <h1 class="title_1 shadow text-center">Donaciones a la Casa Hogar</h1>              
+                <div class="row flex-row-reverse">
+                    <div class="col-12 col-lg-6 center_v">
+                        <div>
+                        <p class="parrafo">SPLENDOR Casa Hogar para la Tercera Edad necesita de tu ayuda, necesitamos tensiómetro, medicinas y nebulizador nutrientes (leche ensure, vital o geriaplus) y tiras reactivas para medir la glucosa, etc. Nuestros requerimientos son de tipo Mobiliario Medico, Alimentos-Viveres y Medicamentos</p>
+                        <p class="parrafo">Nuestros residentes son acogidos con respeto, amor y mucho cariño integrándolos al calor de su nueva familia.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="">
+                            <img class="w-100 fade-in-left" src="assets/main_ayudanos/necesidadess.jpg" alt="imagen_donaciones ">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3 class="title_3 text-center">Cuentas para realizar donativos</h3>
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="card m-2">
-                                <div class="card-header text-center">Moneda Nacional(Nuevos Soles)</div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">BANCO INTERBANK</h5>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="">
-                                            <p class="card-text"><span class="d-inline-block min_w_200">Nombre: </span><span class="">SPLENDOR CASA HOGAR</span></p>            
-                                            <p class="card-text"><span class="d-inline-block min_w_200">N° de Cuenta: </span><span class="" >158-312109482-5</span></p>
-                                            <p class="card-text "><span class="d-inline-block min_w_200">N° de CCI: </span><span class="">003-158-013121094825-36</span></p>
-                                        </div>
+            </div>
+
+
+            <div class="container vh-80" id="cuentas">
+                <h3 class="title_1 text-center shadow">Cuentas para realizar donativos</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card m-2">
+                            <div class="card-header text-center">Moneda Nacional(Nuevos Soles)</div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">BANCO INTERBANK</h5>
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <p class="card-text"><span class="d-inline-block min_w_200">Nombre: </span><span class="">SPLENDOR CASA HOGAR</span></p>            
+                                        <p class="card-text"><span class="d-inline-block min_w_200">N° de Cuenta: </span><span class="" >158-312109482-5</span></p>
+                                        <p class="card-text "><span class="d-inline-block min_w_200">N° de CCI: </span><span class="">003-158-013121094825-36</span></p>
                                     </div>
-                                
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="card m-2">
-                                <div class="card-header text-center">Moneda Extranjera(Dolares)</div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">BANCO INTERBANK</h5>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="">
-                                            <p class="card-text"><span class="d-inline-block min_w_200">Nombre: </span><span class="">SPLENDOR CASA HOGAR</span></p>            
-                                            <p class="card-text"><span class="d-inline-block min_w_200">N° de Cuenta: </span><span class="" >158-312109492-1</span></p>
-                                            <p class="card-text "><span class="d-inline-block min_w_200">N° de CCI: </span><span class="">003-158-013121094921-33</span></p>
-                                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card m-2">
+                            <div class="card-header text-center">Moneda Extranjera(Dolares)</div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">BANCO INTERBANK</h5>
+                                <div class="d-flex justify-content-center">
+                                    <div class="">
+                                        <p class="card-text"><span class="d-inline-block min_w_200">Nombre: </span><span class="">SPLENDOR CASA HOGAR</span></p>            
+                                        <p class="card-text"><span class="d-inline-block min_w_200">N° de Cuenta: </span><span class="" >158-312109492-1</span></p>
+                                        <p class="card-text "><span class="d-inline-block min_w_200">N° de CCI: </span><span class="">003-158-013121094921-33</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="card m-2">
+                            <div class="card-header text-center">Billeteras Moviles</div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <div style="width: 80px;">
+                                        <img src="assets/main_ayudanos/yape.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="center_v">
+                                        <p class="card-text ps-3">990274852</p>            
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +197,6 @@
                     </div>
                 </div>
             </div>
-
  
         </div>
 
@@ -178,7 +210,7 @@
             <div class="row titulosFooter">
                 <div class="col-12 col-lg-3  px-5 pt-5">
                     <div class="d-flex justify-content-center">
-                        <img src="assets/img/logo_9C9C9C.svg" style="color: red" alt="a" class="img-fluid w-100">
+                        <img src="assets/footer/logo_9C9C9C.svg" alt="Splendor_Logo" class="img-fluid w-100">
                     </div>
                     <h6 class="mt-5 text-center">Redes Sociales</h6>                  
                     <div class="item d-flex justify-content-center">
@@ -210,17 +242,17 @@
                     <h6>Nosotros</h6>
                     <ul class="nav flex-column mt-4">
                         <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                        <li class="nav-item"><a href="index.html#ancla-labor" class="nav-link">¿Qué hacemos?</a>
+                        <li class="nav-item"><a href="index.html#labor" class="nav-link">¿Qué hacemos?</a>
                             <ul class="nav flex-column ms-4">
                                 <li class="nav-item"><a href="" class="nav-link">Mision y Visión</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="index.html#ancla-historia" class="nav-link">Conócenos</a>
+                        <li class="nav-item"><a href="index.html#historia" class="nav-link">Conócenos</a>
                             <ul class="nav ms-4">
                                 <li class="nav-item"><a href="" class="nav-link">Proyectos</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="index.html#ancla-ayuda" class="nav-link">Ayudanos</a>
+                        <li class="nav-item"><a href="index.html#ayuda" class="nav-link">Ayudanos</a>
                             <ul class="nav flex-column ms-4">
                                 <li class="nav-item"><a href="" class="nav-link">Programa Adopta</a></li>
                                 <li class="nav-item"><a href="" class="nav-link">Voluntario Splendor</a></li>

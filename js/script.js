@@ -44,3 +44,25 @@ document.addEventListener('DOMContentLoaded', function() {
   myModal.show();
 });
 
+//::::::::::::::::://
+
+function aplicarMargenes() {
+  const contenedores = document.querySelectorAll(".vh-80");
+
+  contenedores.forEach(function(contenedor) {
+    if (contenedor.scrollHeight > (0.8 * window.innerHeight) && window.innerWidth > 991) {
+      contenedor.style.marginBottom = "24px";
+      contenedor.style.marginTop = "8px";
+    } else {
+      // Si no se cumplen las condiciones, eliminar los márgenes
+      contenedor.style.marginBottom = "";
+      contenedor.style.marginTop = "";
+    }
+  });
+}
+
+// Ejecutar la función al cargar la página
+window.addEventListener("load", aplicarMargenes);
+
+// Ejecutar la función al redimensionar la ventana
+window.addEventListener("resize", aplicarMargenes);

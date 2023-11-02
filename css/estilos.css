@@ -28,6 +28,7 @@
     .vh-80{
         min-height: auto;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -75,6 +76,20 @@
     min-width: 100px;
 }
 
+.w_50_to_100{
+    width: 50%;
+}
+@media (max-width:991px){
+    .w_50_to_100{
+        width: 100%;
+    }
+}
+
+.center_v{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 /*Barras*/
@@ -258,16 +273,16 @@
 /**/
 
 /*Nuestra-Labor/Historia*/
-#ancla-labor, #ancla-historia, #ancla-ayuda{
+#labor, #historia, #ayuda{
     transform: translateY(-80px);
 }
 
 
 @media (max-width:991px){
-    #ancla-labor, #ancla-historia{
+    #labor, #historia{
         transform: translateY(-220px);
     }
-    #ancla-ayuda{
+    #ayuda{
         transform: translateY(-235px);
     }
 
@@ -359,12 +374,3 @@
     object-position: center 20%;
 }
 
-@media (max-width:991px){
-
-    .mi_vi_conntainer{
-        height: auto !important;
-    }
-    
-
-
-}
