@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   myModal.show();
 });
 
-//::::::::::::::::://
+//:::::::::::::::::
 
 function aplicarMargenes() {
   const contenedores = document.querySelectorAll(".vh-80");
