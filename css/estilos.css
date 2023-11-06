@@ -22,14 +22,8 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-}
-
-@media (max-width:991px){
-    .vh-80{
-        min-height: auto;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .bg_1{
@@ -141,7 +135,7 @@
 /*::::Carousel::::::*/
 
 .carousel-cont .carousel-item{
-    height: calc(100vh - 110px);
+    height: calc(100vh - 65px);
     display: flex;
     overflow: hidden;
     position: relative;
