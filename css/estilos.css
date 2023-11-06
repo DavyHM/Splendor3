@@ -27,19 +27,23 @@
 @media (max-width:991px){
     .vh-80{
         min-height: auto;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
 }
 
 .bg_1{
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,242,211,1) 30%, rgba(250,242,211,1) 70%, rgba(255,255,255,1) 100%);
+    background: #fef4ee;
 }
 
 .bg_2{
-    background: rgb(227,241,255);
-    background: linear-gradient(0deg, rgba(227,241,255,1) 0%, rgba(255,255,255,1) 50%, rgba(227,241,255,1) 100%);
+    background: #EBF5FF;
+    /* background: rgb(227,241,255);
+    background: linear-gradient(0deg, rgba(227,241,255,1) 0%, rgba(255,255,255,1) 50%, rgba(227,241,255,1) 100%); */
+}
+
+.bg_3{
+    background: #1F1F1F;
 }
 
 /*Titulos y parrafos*/
@@ -93,22 +97,8 @@
 
 
 /*Barras*/
-.top-var{
-    background-color: var(--color-f_oscuro);
-    font-size: 0.9rem;
-}
 
-.top-var a{
-    color: var(--color-letras_f_oscuro);
-}
 
-.top-var a:hover{
-    color: white;
-}
-
-.second-bar{
-    background-color: var(--color-spl-crema);
-}
 
 .second-bar a{
     color:var(--color-spl);
@@ -267,7 +257,7 @@
 }
 
 #apadrina, #voluntariado, #donaciones, #donar{
-    transform: translateY(-100px);
+    transform: translateY(-60px);
 }
 
 /**/
@@ -294,7 +284,6 @@
 
 /*Ayudanos*/
 .ayudanos{
-    background-color: var(--color-spl-crema);
     margin-bottom: 16px;
     height: 80vh;
 }
