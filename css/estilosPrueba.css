@@ -20,15 +20,35 @@
 .iconoTikTok {font-size: 35px;}
 .iconoYoutube {color: #bb0000; font-size: 35px;}
 
+.shadowContador{
+    box-shadow: none;
+    border-radius: none;
+}
+
+.shadowContador-lg{
+    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+@media (max-width:991px){
+    .shadowContador{
+        box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+        -8px -8px 16px rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+    }
+
+    .shadowContador-lg{
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
 
 .itemPrueba {
     height: 160px;
-    width: 170px;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
-    -8px -8px 16px rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
 }
