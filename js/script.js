@@ -15,6 +15,11 @@ function cierraVentana() {
         }
 }
 
+const linksDelMenu = document.querySelectorAll('.navbar-nav .nav-item');
+linksDelMenu.forEach(function(link) {
+    link.addEventListener('click', cierraVentana);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const images0 = document.querySelectorAll('.fade-in');
     const images1 = document.querySelectorAll('.fade-in-left');
@@ -38,13 +43,13 @@ document.addEventListener('DOMContentLoaded', function() {
         ponerDefault(images0);
         ponerDefault(images1);
         ponerDefault(images2);
-    });
+    },{passive:true});
 });
 
 document.addEventListener('DOMContentLoaded', function() {
   var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
   myModal.show();
-});
+},{passive:true});
 
 
 //::::::::::::::::::::Contador:::::
