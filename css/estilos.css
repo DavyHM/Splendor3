@@ -27,17 +27,21 @@
 }
 
 .bg_1{
-    background: #fef4ee;
+    background: #fef4ee; /*Splendor_seccion_impar*/
 }
 
 .bg_2{
-    background: #EBF5FF;
-    /* background: rgb(227,241,255);
-    background: linear-gradient(0deg, rgba(227,241,255,1) 0%, rgba(255,255,255,1) 50%, rgba(227,241,255,1) 100%); */
+    background: #EBF5FF; /*NavBar*/
 }
 
 .bg_3{
-    background: #1F1F1F;
+    background: #e0e5ec; /*Footer*/
+}
+
+.bg_4{
+    background: #fef4ee;
+    /*Splendor_seccion_par*/
+    /* background: #e0e5ec;  */
 }
 
 /*Titulos y parrafos*/
