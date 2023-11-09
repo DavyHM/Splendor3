@@ -4,16 +4,12 @@
 
 :root{
     --color-slogan: #2a73c2;
-    --color-logo: #008DCE;
     --color-spl: #3085C3;
     --color-spl-opd0: #3086c3d0;
     --color-spl-celeste-2: #66ccff;
     --color-spl-celeste-3: #99ccff;
-    --color-spl-crema: white;/* #FAF2D3; */
-    --color-spl-crema-op90: white;/*#FAF2D390; */
-    --color-amarillo: white;/* #F4E869; */
-    --color-f_oscuro: #1F1F1F;
-    --color-letras_f_oscuro: #9C9C9C;
+    --color-spl-crema: #FAF2D3;/* #FAF2D3; */
+    --color-spl-crema-op90: #FAF2D390;/*#FAF2D390; */
 }
 
 /*De uso general*/
@@ -27,7 +23,8 @@
 }
 
 .bg_1{
-    background: #fef4ee; /*Splendor_seccion_impar*/
+    background: #f9f6f4; /*Splendor_seccion_impar*/
+    /* background: #fef4ee; Splendor_seccion_impar */
 }
 
 .bg_2{
@@ -39,9 +36,8 @@
 }
 
 .bg_4{
-    background: #fef4ee;
-    /*Splendor_seccion_par*/
-    /* background: #e0e5ec;  */
+    background: #f2efed;
+
 }
 
 /*Titulos y parrafos*/
@@ -66,9 +62,6 @@
     color: var(--color-spl);
 }
 
-.bg-spl-c{
-    background-color: var(--color-spl-crema);
-}
 
 .fcolor-spl-a{
     color: var(--color-spl);
