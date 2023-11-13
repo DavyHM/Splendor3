@@ -61,3 +61,10 @@ animarContador('cont4',63,3000);
 
 //::::::::SAHRE
 
+document.getElementById('whatsapp-button').addEventListener('click', function() {
+  // Obtén el número de teléfono del atributo "data-number"
+  var phoneNumber = this.getAttribute('data-number');
+
+  // Abre el enlace de WhatsApp con el número de teléfono
+  window.open('https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=Hola,%20quisiera%20ayudar!%20%F0%9F%98%8A', '_blank');
+});
