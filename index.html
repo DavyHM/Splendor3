@@ -14,7 +14,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="css/estilosPez.css">
-    <link rel="stylesheet" href="css/estilosPrueba.css">
+    <!-- <link rel="stylesheet" href="css/estilosPrueba.css"> -->
 </head>
 
 <body>
@@ -212,34 +212,34 @@
 
 
         <!-- Prueba random -->
-        <div class="bodyPrueba">
+        <div class="bodyPrueba d-none">
             <div class="container">
                 <div class="row shadowContador">
                     <div class="col col-3 d-flex justify-content-center">
                         <div class="itemPrueba shadowContador-lg">
                             <span class="fab fa-instagram iconoInstagram"></span>
-                            <span class="cantidad" id="cont1">0</span>
+                            <span class="cantidad" id="cont1a">0</span>
                             <span class="seguidores">Seguidores</span>
                         </div>
                     </div>
                     <div class="col col-3 d-flex justify-content-center">
                         <div class="itemPrueba shadowContador-lg">
                             <span class="fab fa-tiktok iconoTikTok"></span>
-                            <span class="cantidad" id="cont2">0</span>
+                            <span class="cantidad" id="cont2a">0</span>
                             <span class="seguidores">Seguidores</span>
                         </div>
                     </div>
                     <div class="col col-3 d-flex justify-content-center">
                         <div class="itemPrueba shadowContador-lg">
                             <span class="fab fa-facebook iconoFacebook"></span>
-                            <span class="cantidad" id="cont3">0</span>
+                            <span class="cantidad" id="cont3a">0</span>
                             <span class="seguidores">Seguidores</span>
                         </div>
                     </div>
                     <div class="col col-3 d-flex justify-content-center">
                         <div class="itemPrueba shadowContador-lg">
                             <span class="fab fa-youtube iconoYoutube"></span>
-                            <span class="cantidad" id="cont4">0</span>
+                            <span class="cantidad" id="cont4a">0</span>
                             <span class="seguidores">Suscriptores</span>
                         </div>
                     </div>
@@ -249,6 +249,39 @@
         
 
     </main>
+
+    <button id="share-button" data-bs-toggle="collapse" data-bs-target="#share-icons" aria-expanded="false" aria-controls="hiddenDiv">
+        <i class="fas fa-share"></i>
+    </button>
+
+    <div id="share-icons" class="collapse">
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-column align-items-center social-icon-box"
+            onclick="window.open('https://instagram.com/SplendorCasaHogar?fref=ts', '_blank');">
+                <span class="fab fa-instagram iconoInstagram"></span>
+                <span class="social-icon" id="cont1">0</span>               
+            </div>
+            <div class="d-flex flex-column align-items-center social-icon-box"
+            onclick="window.open('https://www.tiktok.com/@splendorcasahogar', '_blank');">
+                <span class="fab fa-tiktok iconoTikTok"></span>
+                <span class="social-icon" id="cont2">0</span>               
+            </div>
+            <div class="d-flex flex-column align-items-center social-icon-box"
+            onclick="window.open('https://www.facebook.com/SplendorCasaHogar', '_blank');">
+                <span class="fab fa-facebook iconoFacebook"></span>
+                <span class="social-icon" id="cont3">0</span>               
+            </div>
+            <div class="d-flex flex-column align-items-center social-icon-box"
+             onclick="window.open('https://www.youtube.com/channel/UCvs4cjGax6kJnhgTRgmyxZw', '_blank');">
+                <span class="fab fa-youtube iconoYoutube"></span>
+                <span class="social-icon" id="cont4">0</span>  
+            </div>
+        </div>
+    </div>
+
+    <button id="whatsapp-button" data-number="+51938813733">
+        <i class="fa-brands fa-whatsapp fs-2"></i>
+    </button>
     
 
     <!-- FOOTER -->
