@@ -47,14 +47,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-  myModal.show();
+  const modal = document.getElementById('exampleModal')
+  if(modal === null){
+
+  }else{
+    var myModal = new bootstrap.Modal(modal);
+    myModal.show();
+  }
+
 },{passive:true});
 
 
 //::::::::::::::::::::Contador:::::
 
-animarContador('cont1',1492,3000);
+animarContador('cont1',1400,2000);
 animarContador('cont2',4123,3000);
 animarContador('cont3',7212,3000);
 animarContador('cont4',63,3000);

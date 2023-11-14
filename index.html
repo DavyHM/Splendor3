@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Splendor</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -14,7 +15,6 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="css/estilosPez.css">
-    <!-- <link rel="stylesheet" href="css/estilosPrueba.css"> -->
 </head>
 
 <body>
@@ -71,7 +71,7 @@
                 <img src="assets/modal/anuncio.jpg" alt="" class="w-100">
             </div>
             <div class="modal-footer justify-content-center">
-                <a type="button" class="btn btn-saber-mas" href="ayudanos.html#">Ayúdanos</a>
+                <a type="button" class="btn btn-saber-mas" href="ayudanos.html#donar">Ayúdanos</a>
             </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
             <div class="container nuestra-historia  ">
                 <div class="row flex-lg-row-reverse">
                     <div class="col-12 col-lg-6 d-flex align-items-center overflow-hidden">
-                        <video |autoplay controls src="assets/main_index/historia.mp4" width="100%" class="fade-in-right"></video>
+                        <video autoplay controls src="assets/main_index/historia.mp4" width="100%" class="fade-in-right"></video>
                     </div>
                     <div class="col-12 col-lg-6 d-flex align-items-center">
                         <div class="pe-lg-5">
@@ -208,48 +208,10 @@
                     </div>
                 </div>
             </div>
-        </div> 
-
-
-        <!-- Prueba random -->
-        <div class="bodyPrueba d-none">
-            <div class="container">
-                <div class="row shadowContador">
-                    <div class="col col-3 d-flex justify-content-center">
-                        <div class="itemPrueba shadowContador-lg">
-                            <span class="fab fa-instagram iconoInstagram"></span>
-                            <span class="cantidad" id="cont1a">0</span>
-                            <span class="seguidores">Seguidores</span>
-                        </div>
-                    </div>
-                    <div class="col col-3 d-flex justify-content-center">
-                        <div class="itemPrueba shadowContador-lg">
-                            <span class="fab fa-tiktok iconoTikTok"></span>
-                            <span class="cantidad" id="cont2a">0</span>
-                            <span class="seguidores">Seguidores</span>
-                        </div>
-                    </div>
-                    <div class="col col-3 d-flex justify-content-center">
-                        <div class="itemPrueba shadowContador-lg">
-                            <span class="fab fa-facebook iconoFacebook"></span>
-                            <span class="cantidad" id="cont3a">0</span>
-                            <span class="seguidores">Seguidores</span>
-                        </div>
-                    </div>
-                    <div class="col col-3 d-flex justify-content-center">
-                        <div class="itemPrueba shadowContador-lg">
-                            <span class="fab fa-youtube iconoYoutube"></span>
-                            <span class="cantidad" id="cont4a">0</span>
-                            <span class="seguidores">Suscriptores</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-
+        </div>         
     </main>
 
+    <!-- Comparte Redes Sociales -->
     <button id="share-button" data-bs-toggle="collapse" data-bs-target="#share-icons" aria-expanded="false" aria-controls="hiddenDiv">
         <i class="fas fa-share"></i>
     </button>
@@ -259,26 +221,35 @@
             <div class="d-flex flex-column align-items-center social-icon-box"
             onclick="window.open('https://instagram.com/SplendorCasaHogar?fref=ts', '_blank');">
                 <span class="fab fa-instagram iconoInstagram"></span>
-                <span class="social-icon" id="cont1">0</span>               
+                <div class="notification-box text-nowrap">
+                    +<span class="social-icon" id="cont1">0</span>
+                </div>
             </div>
             <div class="d-flex flex-column align-items-center social-icon-box"
             onclick="window.open('https://www.tiktok.com/@splendorcasahogar', '_blank');">
                 <span class="fab fa-tiktok iconoTikTok"></span>
-                <span class="social-icon" id="cont2">0</span>               
+                <div class="notification-box text-nowrap">
+                    +<span class="social-icon" id="cont2">0</span>
+                </div>               
             </div>
             <div class="d-flex flex-column align-items-center social-icon-box"
             onclick="window.open('https://www.facebook.com/SplendorCasaHogar', '_blank');">
                 <span class="fab fa-facebook iconoFacebook"></span>
-                <span class="social-icon" id="cont3">0</span>               
+                <div class="notification-box text-nowrap">
+                    +<span class="social-icon" id="cont3">0</span>
+                </div>                 
             </div>
             <div class="d-flex flex-column align-items-center social-icon-box"
              onclick="window.open('https://www.youtube.com/channel/UCvs4cjGax6kJnhgTRgmyxZw', '_blank');">
                 <span class="fab fa-youtube iconoYoutube"></span>
-                <span class="social-icon" id="cont4">0</span>  
+                <div class="notification-box text-nowrap">
+                +<span class="social-icon" id="cont4">0</span>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- whatsapp -->
     <button id="whatsapp-button" data-number="51938813733">
         <i class="fa-brands fa-whatsapp fs-2"></i>
     </button>
@@ -332,8 +303,7 @@
                                 <li class="nav-item"><a href="ayudanos.html#donaciones" class="nav-link">Donaciones</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="" class="nav-link">Fotos</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Videos</a></li>
+                        <li class="nav-item"><a href="galeriafotos.html" class="nav-link">Fotos</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 px-lg-5 pt-5 position-relative f-contac" id="contacto">
@@ -349,7 +319,9 @@
                         Ubícanos
                     </h6>
                     <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4641.122934397768!2d-77.06976717562009!3d-11.9949968489654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5998a9a3ad%3A0xa42dddfa642c0a19!2sCasa%20Hogar%20Splendor!5e0!3m2!1ses-419!2spe!4v1697417322421!5m2!1ses-419!2spe" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div style="height: 75%;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d243.920325700232!2d-77.07060713254089!3d-11.9935061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUrb.%20Good%20Year%20-%20Los%20Olivos!5e0!3m2!1ses-419!2spe!4v1699939366073!5m2!1ses-419!2spe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
             <div class="row text-center py-2">
@@ -360,6 +332,5 @@
 
     <script src="js/bootstrap.bundle.js"></script>
     <script type="module" src="js/script.js"></script>
-    <script src="js/app.js"></script>
-</body>
+    </body>
 </html>
