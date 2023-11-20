@@ -202,14 +202,24 @@
     border-radius: 10px;
     text-align: center;
     padding: 8px 16px;
-    color: var(--color-slogan);
-    text-shadow: 2px 2px 1px var(--color-spl-crema);
-    
+
 }
-.carou-capt-2-2 h1{
-    margin-bottom: 0px;
+
+.title_car{
+    color: var(--color-spl-celeste-3);
+    text-shadow: 3px 3px 0px black;
     font-size: 3rem;
+    text-align: center;
+
 }
+
+.subtitle_car{
+    color: var(--color-spl-crema);
+    text-shadow: 3px 3px 2px black;
+
+}
+
+
 
 @media (max-width:991px) {
     .carou-capt-2-2 h1{
@@ -229,18 +239,10 @@
     position: absolute;
     bottom: 15%;
     left: 10%;
-    color: var(--color-slogan);
-    text-shadow: 2px 2px 1px var(--color-spl-crema);
+
 }
-.carou-capt-3-2 h1{
-    text-align: center;
-    font-size: 3rem;
-}
-.carou-capt-3-2 h2{
-    padding: 4px 10px;
-   background-color: var(--color-spl-crema);
-   border-radius: 10px;
-}
+
+
 @media (max-width:991px) {
     .carou-capt-3-2 h1{
         font-size: 2rem;
