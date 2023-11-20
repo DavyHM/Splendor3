@@ -160,11 +160,11 @@
 
 /*Control de Texto en img1*/
 .carou-capt-1{
-    top: 10rem;
+    top: 1rem;
 }
 .carou-capt-1 > h1{
     color: var(--color-spl-crema);
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     border-radius: 15px;
     background-color: var(--color-spl-opd0);
@@ -198,17 +198,15 @@
 .carou-capt-2-2{
     position: absolute;
     bottom: 25%;
-    background-color: var(--color-spl-crema-op90);
     border-radius: 10px;
     text-align: center;
     padding: 8px 16px;
+    color: var(--color-slogan);
+    text-shadow: 2px 2px 1px var(--color-spl-crema);
     
 }
 .carou-capt-2-2 h1{
-    color: var(--color-slogan);
     margin-bottom: 0px;
-    text-shadow: 2px 2px 6px var(--color-spl-crema-op90);
-    font-weight: bolder;
     font-size: 3rem;
 }
 
@@ -231,7 +229,7 @@
     bottom: 15%;
     left: 10%;
     color: var(--color-slogan);
-    text-shadow: 2px 2px 2px var(--color-spl-crema);
+    text-shadow: 2px 2px 1px var(--color-spl-crema);
 }
 .carou-capt-3-2 h1{
     text-align: center;
